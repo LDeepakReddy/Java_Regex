@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class PinCode {
     public static void main(String[] args) {
         System.out.println("Welcome to the Pincode pattern validation program");
-        String pinCode = "502303";
+        String pinCode = "D502303";
         String regex = "^[1-9]{1}[0-9]{5}$";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(pinCode);
